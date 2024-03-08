@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* Navbar */
 .navbar {
     background-color: #505050;
@@ -31,8 +36,8 @@ body {
     background-size: cover;
     background-position: center;
     padding: 15px;
-    max-width: 1200px; /* Ajuste de ancho máximo */
-    margin: 0 auto; /* Centrar en pantallas más grandes */
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
 
 section {
@@ -89,7 +94,7 @@ span {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
-    width: calc(50% - 20px); /* Dos tarjetas por fila con 20px de espacio entre ellas */
+    width: calc(50% - 20px);
     max-width: 400px;
     margin-bottom: 20px;
 }
@@ -104,7 +109,6 @@ span {
     margin-bottom: 15px;
 }
 
-
 .img-card2{
     background-image: url('/img/shany\ perez.jpeg');
     background-size: cover;
@@ -114,7 +118,6 @@ span {
     border-radius: 5px;
     margin-bottom: 15px;
 }
-
 
 .img-card3 {
     background-image: url('/img/Hely\ arroyo.jpeg');
@@ -138,29 +141,15 @@ p {
     line-height: 1.5;
 }
 
-/* Footer */
-footer {
-    background-color: #333; 
-    padding: 20px 0; 
-    text-align: center; 
-}
-
-.footer p {
-    margin: 0;
-    font-size: 14px; 
-    color: #c9b755; 
-}
-
 /* Media queries */
 @media only screen and (min-width: 321px) and (max-width: 1200px) {
     .card {
-        width: calc(50% - 20px); /* Dos tarjetas por fila con 20px de espacio entre ellas */
+        width: calc(50% - 20px); 
         margin-bottom: 20px;
     }
 }
 
-/**comprar autos**/
-
+/* Comprar autos */
 .Tipautos {
     display: flex;
     flex-direction: column;
@@ -168,22 +157,7 @@ footer {
     margin-top: 20px;
 }
 
-.ImgC{
-    max-width: 100%;
-    height: 100%;
-}
-
-.ImgC2{
-    max-width: 100%;
-    height: 100%;
-}
-
-.ImgC3{
-    max-width: 100%;
-    height: 100%;
-}
-
-.ImgC4 {
+.ImgC, .ImgC2, .ImgC3, .ImgC4 {
     max-width: 100%;
     height: 100%;
 }
@@ -202,7 +176,6 @@ footer {
     text-align: center;
 }
 
-
 table {
     width: 80%; 
     border-collapse: collapse;
@@ -213,7 +186,6 @@ tr {
     display: grid;
     grid-template-columns: 50% 50%;
     border: 1px solid #ddd; 
-
 }
 
 td {
@@ -228,15 +200,15 @@ tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-/**Venta de auto**/
-
-main {
+/* Venta de auto */
+.Po {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
+    text-align: center;
 }
 
-h2, h3 {
+.hdos, .htres {
     margin: 0;
 }
 
@@ -279,9 +251,10 @@ button {
     color: white;
 }
 
+/* Footer */
 footer {
+    color: #c9b755;
     background-color: #333;
-    color: white;
     text-align: center;
     padding: 10px 0;
     position: fixed;
@@ -293,22 +266,74 @@ footer {
     margin: 0;
 }
 
-/* Media Queries */
-@media screen and (max-width: 1200px) {
-    main {
-        width: 90%;
-    }
+/**Usser**/
+
+.pP {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-    main {
-        width: 95%;
-    }
+/* Estilos para el título "Iniciar Sesión" */
+.hdos {
+    margin-bottom: 20px;
 }
 
-@media screen and (max-width: 480px) {
-    main {
-        width: 100%;
-    }
+/* Estilos para el formulario */
+.form {
+    display: inline-block;
+    text-align: left;
 }
 
+/* Estilos para los campos del formulario */
+.form div {
+    margin-bottom: 20px;
+}
+
+/* Estilos para las etiquetas de los campos */
+label {
+    font-weight: bold;
+}
+
+/* Estilos para los campos de entrada y botón */
+input[type="email"],
+input[type="password"],
+button {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Estilos para el botón */
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para el artículo de registro */
+.Registrate {
+    margin-top: 20px;
+}
+
+.Registrate p {
+    margin: 0;
+}
+
+.Registrate a {
+    color: blue;
+}
+
+.Registrate a:hover {
+    text-decoration: underline;
+}
+
+/**Register**/
