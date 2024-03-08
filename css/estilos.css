@@ -337,3 +337,71 @@ button:hover {
 }
 
 /**Register**/
+
+.Pq {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para el título "Registrarse" */
+.hdos {
+    margin-bottom: 20px;
+}
+
+/* Estilos para el formulario */
+.form {
+    display: inline-block;
+    text-align: left;
+}
+
+/* Estilos para los campos del formulario */
+.form div {
+    margin-bottom: 20px;
+}
+
+/* Estilos para las etiquetas de los campos */
+label {
+    font-weight: bold;
+}
+
+/* Estilos para los campos de entrada y botón */
+input[type="email"],
+input[type="password"],
+button {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Estilos para el artículo de registro */
+.Registrate2 {
+    margin-top: 20px;
+}
+
+.Registrate2 p {
+    margin: 0;
+}
+
+.Registrate2 a {
+    color: blue;
+}
+
+.Registrate2 a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el botón */
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
