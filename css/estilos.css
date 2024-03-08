@@ -25,7 +25,7 @@ body {
     padding: 0;
 }
 
-main {
+.main {
     background-image: url("/img/presentacion.jpg");
     opacity: 4;
     background-size: cover;
@@ -52,7 +52,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-main p {
+.main p {
     color: #000000c0;
     line-height: 1.5; 
     background-color: #ffffff3b; 
@@ -157,4 +157,73 @@ footer {
         width: calc(50% - 20px); /* Dos tarjetas por fila con 20px de espacio entre ellas */
         margin-bottom: 20px;
     }
+}
+
+/**comprar autos**/
+
+.Tipautos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.ImgC{
+    max-width: 100%;
+    height: 100%;
+}
+
+.ImgC2{
+    max-width: 100%;
+    height: 100%;
+}
+
+.ImgC3{
+    max-width: 100%;
+    height: 100%;
+}
+
+.ImgC4 {
+    max-width: 100%;
+    height: 100%;
+}
+
+.hdos {
+    color: #c9b755; 
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.htres {
+    color: #ddd;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+table {
+    width: 80%; 
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+tr {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 1px solid #ddd; 
+
+}
+
+td {
+    padding: 10px;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
