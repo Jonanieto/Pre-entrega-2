@@ -34,7 +34,7 @@ body {
 }
 
 .main {
-    background-image: url("/img/presentacion.jpg");
+    background-image: url("../img/presentacion.jpg");
     opacity: 4;
     background-size: cover;
     background-position: center;
@@ -103,7 +103,7 @@ h2 {
 }
 
 .img-card{
-    background-image: url('/img/carlos\ lopez.jpeg');
+    background-image: url('../img/carlos\ lopez.jpeg');
     background-size: cover;
     background-position: center;
     height: 150px;
@@ -113,7 +113,7 @@ h2 {
 }
 
 .img-card2{
-    background-image: url('/img/shany\ perez.jpeg');
+    background-image: url('../img/shany\ perez.jpeg');
     background-size: cover;
     background-position: center;
     height: 150px;
@@ -123,7 +123,7 @@ h2 {
 }
 
 .img-card3 {
-    background-image: url('/img/Hely\ arroyo.jpeg');
+    background-image: url('../img/Hely\ arroyo.jpeg');
     background-size: cover;
     background-position: center;
     height: 150px;
